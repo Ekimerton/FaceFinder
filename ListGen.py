@@ -1,3 +1,9 @@
+import cognitive_face as CF
+import matplotlib.pyplot as plt
+import json
+from PIL import Image
+from io import BytesIO
+import requests
 
 CF.face_list.create(LIST_NUMBER)
 
